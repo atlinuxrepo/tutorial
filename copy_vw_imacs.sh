@@ -5,7 +5,7 @@
 subdomain=dsi.columbia.edu
 cd ~/Documents/video_walls
 
-for imac in 01 02 03 04 05 06 07
+for imac in {01..07} 
 do
 
 if [ ! -d "vw-$imac" ];
